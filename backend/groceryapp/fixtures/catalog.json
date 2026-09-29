@@ -1,0 +1,102 @@
+[
+  {
+    "model": "groceryapp.uom",
+    "pk": 1,
+    "fields": { "uom_name": "kg" }
+  },
+  {
+    "model": "groceryapp.uom",
+    "pk": 2,
+    "fields": { "uom_name": "piece" }
+  },
+  {
+    "model": "groceryapp.uom",
+    "pk": 3,
+    "fields": { "uom_name": "liter" }
+  },
+  {
+    "model": "groceryapp.category",
+    "pk": 1,
+    "fields": { "category_name": "Vegetables" }
+  },
+  {
+    "model": "groceryapp.category",
+    "pk": 2,
+    "fields": { "category_name": "Fruits" }
+  },
+  {
+    "model": "groceryapp.category",
+    "pk": 3,
+    "fields": { "category_name": "Kitchen Items" }
+  },
+  {
+    "model": "groceryapp.category",
+    "pk": 4,
+    "fields": { "category_name": "Personal Care Items" }
+  },
+  {
+    "model": "groceryapp.product",
+    "pk": 1,
+    "fields": {
+      "product_name": "Tooth Brush",
+      "uom": 2,
+      "price_per_item": "20.00",
+      "quantity": 14,
+      "description": "Ultra-soft deep-clean manual toothbrush with a non-slip handle designed for comfort and precision control.",
+      "image": "products/ToothBrush.jpg",
+      "category": 4
+    }
+  },
+  {
+    "model": "groceryapp.product",
+    "pk": 2,
+    "fields": {
+      "product_name": "Apple",
+      "uom": 1,
+      "price_per_item": "90.00",
+      "quantity": 8,
+      "description": "A great source of fiber and vitamin C, perfect for keeping the doctor away.",
+      "image": "products/apple_YMSVPH8.jpg",
+      "category": 2
+    }
+  },
+  {
+    "model": "groceryapp.product",
+    "pk": 3,
+    "fields": {
+      "product_name": "Salt",
+      "uom": 1,
+      "price_per_item": "28.00",
+      "quantity": 15,
+      "description": "Pure, free-flowing iodized salt for perfect seasoning and essential daily nutrition.",
+      "image": "products/salt_An3aNwc.jpg",
+      "category": 3
+    }
+  },
+  {
+    "model": "groceryapp.product",
+    "pk": 4,
+    "fields": {
+      "product_name": "Oil",
+      "uom": 3,
+      "price_per_item": "150.00",
+      "quantity": 20,
+      "description": "Contains vitamins A, D, and E, which support eye health, bone strength, and skin vitality.",
+      "image": "products/sunflower_oil_pftdfuK.jpg",
+      "category": 3
+    }
+  },
+  {
+    "model": "groceryapp.product",
+    "pk": 5,
+    "fields": {
+      "product_name": "Tooth Paste 150g",
+      "uom": 2,
+      "price_per_item": "80.00",
+      "quantity": 19,
+      "description": "Refreshing blue gel infused with cooling crystals for minty freshness that lasts all day.",
+      "image": "products/ToothPaste.jpg",
+      "category": 4
+    }
+  }
+]
